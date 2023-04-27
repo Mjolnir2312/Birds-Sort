@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a5dee313e1b54c02a69f5a1a6dce5591
+timeCreated: 1666194422
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "RobotoMono-Medium"
+  fontNames:
+  - Roboto Mono
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

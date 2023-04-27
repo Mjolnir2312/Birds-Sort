@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8e27eac8b60e4cfea45fe19f4e08e93b
+timeCreated: 1666194422
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "RobotoMono-Light"
+  fontNames:
+  - Roboto Mono
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

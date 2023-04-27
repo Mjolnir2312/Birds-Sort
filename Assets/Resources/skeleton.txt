@@ -1,0 +1,722 @@
+{
+"skeleton": {
+	"hash": "Bt1RjjkcA3xsMx5wfvq6PJ36hnw",
+	"spine": "3.8.99",
+	"x": -61.7,
+	"y": 0.75,
+	"width": 122,
+	"height": 157,
+	"images": "./images-for-minigame/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "egg", "parent": "root", "length": 61.95, "rotation": 90, "x": -0.7, "y": 79.25 },
+	{ "name": "bone2", "parent": "egg", "length": 83.77, "rotation": -1.66, "x": 61.95 },
+	{ "name": "bone3", "parent": "egg", "rotation": -6.39, "x": 8.2, "y": 0.68 },
+	{ "name": "bone4", "parent": "egg", "rotation": -1.66, "x": -37.77, "y": -0.79 },
+	{ "name": "bone5", "parent": "egg", "rotation": -1.66, "x": 2.35, "y": 1.54 }
+],
+"slots": [
+	{ "name": "egg break1", "bone": "bone3" },
+	{ "name": "egg break2", "bone": "bone4" },
+	{ "name": "red", "bone": "egg", "attachment": "red" },
+	{ "name": "break", "bone": "bone5" }
+],
+"skins": [
+	{
+		"name": "skin-1",
+		"attachments": {
+			"break": {
+				"break": {
+					"name": "blue/break",
+					"type": "mesh",
+					"path": "red/break",
+					"uvs": [ 0.64092, 0.00923, 0.50106, 0.12346, 0.60362, 0.33366, 1, 0.57356, 1, 0.3131, 0.81187, 0.05721 ],
+					"triangles": [ 5, 2, 1, 5, 1, 0, 2, 5, 4, 2, 4, 3 ],
+					"vertices": [ 75.01, -14.4, 57.13, 0.39, 25.89, -12.3, -8.48, -57.77, 30.82, -56.13, 68.56, -33.66 ],
+					"hull": 6,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 0, 10 ],
+					"width": 111,
+					"height": 151
+				},
+				"break2": {
+					"name": "blue/break",
+					"type": "mesh",
+					"path": "red/break",
+					"uvs": [ 0.19815, 0.00519, 0, 0.21767, 0, 0.77973, 0.2541, 0.53754, 0.48099, 0.76145, 0.72653, 0.84141, 1, 0.64264, 1, 0.34562, 0.81977, 0.01661, 0.74829, 0 ],
+					"triangles": [ 3, 0, 9, 1, 0, 3, 8, 7, 9, 3, 7, 4, 9, 7, 3, 6, 4, 7, 2, 1, 3, 5, 4, 6 ],
+					"vertices": [ 74.23, 35.16, 41.52, 56.22, -43.31, 53.77, -5.94, 26.63, -39.01, 0.48, -50.29, -27.11, -19.41, -56.58, 25.42, -55.29, 74.5, -33.86, 76.78, -25.85 ],
+					"hull": 10,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 0, 18 ],
+					"width": 111,
+					"height": 151
+				},
+				"break3": {
+					"name": "blue/break",
+					"path": "red/break",
+					"x": 0.51,
+					"y": -0.49,
+					"rotation": -88.34,
+					"width": 111,
+					"height": 151
+				}
+			},
+			"egg break1": {
+				"egg break1": {
+					"name": "blue/break1",
+					"path": "red/break1",
+					"x": 0.06,
+					"y": -0.5,
+					"rotation": -83.61,
+					"width": 111,
+					"height": 130
+				}
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "path": "red/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "path": "red/egg", "rotation": -90, "width": 122, "height": 157 }
+			}
+		}
+	},
+	{
+		"name": "skin-2",
+		"attachments": {
+			"break": {
+				"break3": {
+					"name": "blue/break",
+					"path": "brown/break",
+					"x": 0.51,
+					"y": -0.49,
+					"rotation": -88.34,
+					"width": 111,
+					"height": 151
+				},
+				"break": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "brown/break",
+					"skin": "skin-1",
+					"parent": "break",
+					"width": 111,
+					"height": 151
+				},
+				"break2": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "brown/break",
+					"skin": "skin-1",
+					"parent": "break2",
+					"width": 111,
+					"height": 151
+				}
+			},
+			"egg break1": {
+				"egg break1": {
+					"name": "blue/break1",
+					"path": "brown/break1",
+					"x": 0.06,
+					"y": -0.5,
+					"rotation": -83.61,
+					"width": 111,
+					"height": 130
+				}
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "path": "brown/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "path": "brown/egg", "rotation": -90, "width": 122, "height": 157 }
+			}
+		}
+	},
+	{
+		"name": "skin-3",
+		"attachments": {
+			"break": {
+				"break3": { "name": "blue/break", "x": 0.51, "y": -0.49, "rotation": -88.34, "width": 111, "height": 151 },
+				"break": { "name": "blue/break", "type": "linkedmesh", "skin": "skin-1", "parent": "break", "width": 111, "height": 151 },
+				"break2": { "name": "blue/break", "type": "linkedmesh", "skin": "skin-1", "parent": "break2", "width": 111, "height": 151 }
+			},
+			"egg break1": {
+				"egg break1": { "name": "blue/break1", "x": 0.06, "y": -0.5, "rotation": -83.61, "width": 111, "height": 130 }
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "rotation": -90, "width": 120, "height": 156 }
+			}
+		}
+	},
+	{
+		"name": "skin-4",
+		"attachments": {
+			"break": {
+				"break3": {
+					"name": "blue/break",
+					"path": "navyblue/break",
+					"x": 0.51,
+					"y": -0.49,
+					"rotation": -88.34,
+					"width": 111,
+					"height": 151
+				},
+				"break": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "navyblue/break",
+					"skin": "skin-1",
+					"parent": "break",
+					"width": 111,
+					"height": 151
+				},
+				"break2": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "navyblue/break",
+					"skin": "skin-1",
+					"parent": "break2",
+					"width": 111,
+					"height": 151
+				}
+			},
+			"egg break1": {
+				"egg break1": {
+					"name": "blue/break1",
+					"path": "navyblue/break1",
+					"x": 0.06,
+					"y": -0.5,
+					"rotation": -83.61,
+					"width": 111,
+					"height": 130
+				}
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "path": "navyblue/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "path": "navyblue/egg", "rotation": -90, "width": 122, "height": 157 }
+			}
+		}
+	},
+	{
+		"name": "skin-5",
+		"attachments": {
+			"break": {
+				"break3": {
+					"name": "blue/break",
+					"path": "orange/break",
+					"x": 0.51,
+					"y": -0.49,
+					"rotation": -88.34,
+					"width": 111,
+					"height": 151
+				},
+				"break": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "orange/break",
+					"skin": "skin-1",
+					"parent": "break",
+					"width": 111,
+					"height": 151
+				},
+				"break2": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "orange/break",
+					"skin": "skin-1",
+					"parent": "break2",
+					"width": 111,
+					"height": 151
+				}
+			},
+			"egg break1": {
+				"egg break1": {
+					"name": "blue/break1",
+					"path": "orange/break1",
+					"x": 0.06,
+					"y": -0.5,
+					"rotation": -83.61,
+					"width": 111,
+					"height": 129
+				}
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "path": "orange/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "path": "orange/egg", "rotation": -90, "width": 122, "height": 157 }
+			}
+		}
+	},
+	{
+		"name": "skin-6",
+		"attachments": {
+			"break": {
+				"break3": {
+					"name": "blue/break",
+					"path": "green/break",
+					"x": 0.51,
+					"y": -0.49,
+					"rotation": -88.34,
+					"width": 111,
+					"height": 151
+				},
+				"break": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "green/break",
+					"skin": "skin-1",
+					"parent": "break",
+					"width": 111,
+					"height": 151
+				},
+				"break2": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "green/break",
+					"skin": "skin-1",
+					"parent": "break2",
+					"width": 111,
+					"height": 151
+				}
+			},
+			"egg break1": {
+				"egg break1": {
+					"name": "blue/break1",
+					"path": "green/break1",
+					"x": 0.06,
+					"y": -0.5,
+					"rotation": -83.61,
+					"width": 111,
+					"height": 130
+				}
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "path": "green/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "path": "green/egg", "rotation": -90, "width": 122, "height": 157 }
+			}
+		}
+	},
+	{
+		"name": "skin-7",
+		"attachments": {
+			"break": {
+				"break3": {
+					"name": "blue/break",
+					"path": "violet/break",
+					"x": 0.51,
+					"y": -0.49,
+					"rotation": -88.34,
+					"width": 111,
+					"height": 151
+				},
+				"break": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "violet/break",
+					"skin": "skin-1",
+					"parent": "break",
+					"width": 111,
+					"height": 151
+				},
+				"break2": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "violet/break",
+					"skin": "skin-1",
+					"parent": "break2",
+					"width": 111,
+					"height": 151
+				}
+			},
+			"egg break1": {
+				"egg break1": {
+					"name": "blue/break1",
+					"path": "violet/break1",
+					"x": 0.06,
+					"y": -0.5,
+					"rotation": -83.61,
+					"width": 111,
+					"height": 130
+				}
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "path": "violet/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "path": "violet/egg", "rotation": -90, "width": 122, "height": 157 }
+			}
+		}
+	},
+	{
+		"name": "skin-8",
+		"attachments": {
+			"break": {
+				"break3": {
+					"name": "blue/break",
+					"path": "pink/break",
+					"x": 0.51,
+					"y": -0.49,
+					"rotation": -88.34,
+					"width": 111,
+					"height": 151
+				},
+				"break": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "pink/break",
+					"skin": "skin-1",
+					"parent": "break",
+					"width": 111,
+					"height": 151
+				},
+				"break2": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "pink/break",
+					"skin": "skin-1",
+					"parent": "break2",
+					"width": 111,
+					"height": 151
+				}
+			},
+			"egg break1": {
+				"egg break1": {
+					"name": "blue/break1",
+					"path": "pink/break1",
+					"x": 0.06,
+					"y": -0.5,
+					"rotation": -83.61,
+					"width": 111,
+					"height": 130
+				}
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "path": "pink/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "path": "pink/egg", "rotation": -90, "width": 122, "height": 157 }
+			}
+		}
+	},
+	{
+		"name": "skin-9",
+		"attachments": {
+			"break": {
+				"break3": {
+					"name": "blue/break",
+					"path": "black/break",
+					"x": 0.51,
+					"y": -0.49,
+					"rotation": -88.34,
+					"width": 111,
+					"height": 151
+				},
+				"break": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "black/break",
+					"skin": "skin-1",
+					"parent": "break",
+					"width": 111,
+					"height": 151
+				},
+				"break2": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "black/break",
+					"skin": "skin-1",
+					"parent": "break2",
+					"width": 111,
+					"height": 151
+				}
+			},
+			"egg break1": {
+				"egg break1": {
+					"name": "blue/break1",
+					"path": "black/break1",
+					"x": 0.06,
+					"y": -0.5,
+					"rotation": -83.61,
+					"width": 111,
+					"height": 130
+				}
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "path": "black/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "path": "black/egg", "rotation": -90, "width": 122, "height": 157 }
+			}
+		}
+	},
+	{
+		"name": "skin-10",
+		"attachments": {
+			"break": {
+				"break3": {
+					"name": "blue/break",
+					"path": "yellow/break",
+					"x": 0.51,
+					"y": -0.49,
+					"rotation": -88.34,
+					"width": 111,
+					"height": 151
+				},
+				"break": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "yellow/break",
+					"skin": "skin-1",
+					"parent": "break",
+					"width": 111,
+					"height": 151
+				},
+				"break2": {
+					"name": "blue/break",
+					"type": "linkedmesh",
+					"path": "yellow/break",
+					"skin": "skin-1",
+					"parent": "break2",
+					"width": 111,
+					"height": 151
+				}
+			},
+			"egg break1": {
+				"egg break1": {
+					"name": "blue/break1",
+					"path": "yellow/break1",
+					"x": 0.06,
+					"y": -0.5,
+					"rotation": -83.61,
+					"width": 111,
+					"height": 130
+				}
+			},
+			"egg break2": {
+				"egg break2": { "name": "blue/break2", "path": "yellow/break2", "rotation": -88.34, "width": 94, "height": 72 }
+			},
+			"red": {
+				"red": { "name": "blue/egg", "path": "yellow/egg", "rotation": -90, "width": 122, "height": 157 }
+			}
+		}
+	}
+],
+"animations": {
+	"1-fall": {
+		"slots": {
+			"red": {
+				"color": [
+					{ "color": "ffffff51" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"egg": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "y": 42.04 },
+					{ "time": 0.2333, "y": -4.44 },
+					{ "time": 0.4333, "y": 12.5 },
+					{ "time": 0.5667, "y": -2.36 },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2333, "x": 0.904 },
+					{ "time": 0.4333, "x": 0.995 },
+					{ "time": 0.5667, "x": 0.978 },
+					{ "time": 0.6667 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"2-idle": {
+		"bones": {
+			"egg": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667 },
+					{ "time": 0.3333, "angle": 5.78 },
+					{ "time": 0.4667, "angle": -11.82 },
+					{ "time": 0.6333, "angle": 6.18 },
+					{ "time": 0.7667, "angle": -5.98 },
+					{ "time": 0.8667 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667 },
+					{ "time": 0.3333, "y": 15.69 },
+					{ "time": 0.4667, "x": 1.72, "y": 25.9 },
+					{ "time": 0.6333, "x": 1.87, "y": -2.26 },
+					{ "time": 0.7667, "x": 0.33, "y": 3.19 },
+					{ "time": 0.8667 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.927 },
+					{ "time": 0.3333, "x": 1.01 },
+					{ "time": 0.4667, "x": 1.084 },
+					{ "time": 0.6333, "x": 0.953 },
+					{ "time": 0.7667, "x": 1.023 },
+					{ "time": 0.8667 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667 },
+					{ "time": 0.3333, "angle": 13.6 },
+					{ "time": 0.4667, "angle": -12.78 },
+					{ "time": 0.6333, "angle": 9.2 },
+					{ "time": 0.7667, "angle": -5.14 },
+					{ "time": 0.8667 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 0.8667 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 0.8667 }
+				]
+			}
+		}
+	},
+	"3-break": {
+		"slots": {
+			"break": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.1667, "name": "break" },
+					{ "time": 0.3333, "name": "break2" },
+					{ "time": 0.5, "name": "break3" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"egg break1": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff53" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.6667, "name": "egg break1" },
+					{ "time": 1, "name": "egg break1" }
+				]
+			},
+			"egg break2": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff6d" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.6667, "name": "egg break2" }
+				]
+			},
+			"red": {
+				"attachment": [
+					{ "time": 0.6667, "name": null },
+					{ "time": 1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"egg": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -2.2 },
+					{ "time": 0.3333, "angle": 2.75 },
+					{ "time": 0.5, "angle": -5.3 },
+					{ "time": 0.6667, "angle": 2.35, "curve": "stepped" },
+					{ "time": 1, "angle": 2.35 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.5 },
+					{ "time": 0.6667, "x": -0.51, "y": 12.41, "curve": "stepped" },
+					{ "time": 1, "x": -0.51, "y": 12.41 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.97 },
+					{ "time": 0.3333, "x": 1.01 },
+					{ "time": 0.5, "x": 0.9 },
+					{ "time": 0.6667, "x": 1.05, "curve": "stepped" },
+					{ "time": 1, "x": 1.05 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": 116.42 },
+					{ "time": 1, "angle": 76.25 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": 12.93, "y": -69.83 },
+					{ "time": 1, "x": 9.21, "y": -120.75 }
+				],
+				"scale": [
+					{}
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": -23.69 },
+					{ "time": 1, "angle": -51.52 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": -24.69, "y": 0.71 },
+					{ "time": 1, "x": -56.96, "y": 30.2 }
+				],
+				"scale": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

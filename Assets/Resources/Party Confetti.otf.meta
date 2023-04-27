@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ecaf8ca2a2ab4f00b9230a2cf0943084
+timeCreated: 1666194380
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "Party Confetti"
+  fontNames:
+  - Party Confetti
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

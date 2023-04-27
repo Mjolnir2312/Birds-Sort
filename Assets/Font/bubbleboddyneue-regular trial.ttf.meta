@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 00abb964a7174ffca118b662906c87b5
+timeCreated: 1666194416
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "bubbleboddyneue-regular trial"
+  fontNames:
+  - Bubbleboddy Neue Trial
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

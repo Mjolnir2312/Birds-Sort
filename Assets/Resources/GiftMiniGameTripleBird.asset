@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590a5091b1852d1f5fc5ac079cdae62f, type: 3}
+  m_Name: "GiftMiniGameTripleBird"
+  m_EditorClassIdentifier: 
+  lsDataGiftMiniGame:
+  - id: 0
+    point: 10
+    reward:
+      giftType: 48
+      amount: 3
+    thumnail: {fileID: 21300000, guid: 438dcaa7027949b2932fd720833c18ce, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: 5f4c42f54611457da8d7844ea8d3f7ec, type: 3}
+    rewardExtral: []
+  - id: 1
+    point: 25
+    reward:
+      giftType: 47
+      amount: 2
+    thumnail: {fileID: 21300000, guid: 438dcaa7027949b2932fd720833c18ce, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: 5f4c42f54611457da8d7844ea8d3f7ec, type: 3}
+    rewardExtral: []
+  - id: 2
+    point: 40
+    reward:
+      giftType: 48
+      amount: 6
+    thumnail: {fileID: 21300000, guid: 438dcaa7027949b2932fd720833c18ce, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: 5f4c42f54611457da8d7844ea8d3f7ec, type: 3}
+    rewardExtral: []
+  - id: 3
+    point: 50
+    reward:
+      giftType: 50
+      amount: 3
+    thumnail: {fileID: 21300000, guid: 438dcaa7027949b2932fd720833c18ce, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: 5f4c42f54611457da8d7844ea8d3f7ec, type: 3}
+    rewardExtral: []
+  - id: 4
+    point: 60
+    reward:
+      giftType: 51
+      amount: 3
+    thumnail: {fileID: 21300000, guid: 438dcaa7027949b2932fd720833c18ce, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: 5f4c42f54611457da8d7844ea8d3f7ec, type: 3}
+    rewardExtral: []
+  - id: 5
+    point: 80
+    reward:
+      giftType: 53
+      amount: 3
+    thumnail: {fileID: 21300000, guid: 438dcaa7027949b2932fd720833c18ce, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: 5f4c42f54611457da8d7844ea8d3f7ec, type: 3}
+    rewardExtral: []
+  - id: 6
+    point: 90
+    reward:
+      giftType: 47
+      amount: 5
+    thumnail: {fileID: 21300000, guid: 438dcaa7027949b2932fd720833c18ce, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: 5f4c42f54611457da8d7844ea8d3f7ec, type: 3}
+    rewardExtral: []
+  - id: 7
+    point: 100
+    reward:
+      giftType: 95
+      amount: 1
+    thumnail: {fileID: 21300000, guid: 87082bcd24234227b3d4d5e2aff823b9, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: f87603d5bd3043a28cd8889ee0eca6f8, type: 3}
+    rewardExtral:
+    - giftType: 48
+      amount: 15
+  - id: 8
+    point: 105
+    reward:
+      giftType: 94
+      amount: 1
+    thumnail: {fileID: 21300000, guid: 87082bcd24234227b3d4d5e2aff823b9, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: f87603d5bd3043a28cd8889ee0eca6f8, type: 3}
+    rewardExtral:
+    - giftType: 47
+      amount: 5
+  - id: 9
+    point: 110
+    reward:
+      giftType: 96
+      amount: 1
+    thumnail: {fileID: 21300000, guid: 87082bcd24234227b3d4d5e2aff823b9, type: 3}
+    thumnailDecor: {fileID: 21300000, guid: f87603d5bd3043a28cd8889ee0eca6f8, type: 3}
+    rewardExtral:
+    - giftType: 48
+      amount: 25
+    - giftType: 47
+      amount: 20
